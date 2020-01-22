@@ -4,6 +4,7 @@ import picture from './programming.jpeg'
 import iconfb from './fb.jpg'
 import iconig from './ig.svg'
 import './App.css';
+import Counter from './component/Counter'
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       </div>
 
       <div className="card text-center">
+        <Counter />
 
         <div className="card-body">
           <p className="card-text">For more info</p>
